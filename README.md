@@ -19,7 +19,7 @@ This repository contains high-level C++ designs converted into RTL (Verilog) usi
 ### Clone Repository
 To clone this repository to your local machine, run the following command:
 ```sh
-git clone https://github.com/rdanishb/ML-in-VLSI-CAD.git
+git clone https://github.com/rdanishb/ML_in_VLSI_CAD.git
 cd AI_Generated_RTL
 ```
 
