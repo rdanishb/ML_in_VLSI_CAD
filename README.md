@@ -46,18 +46,22 @@ To verify the AI-generated RTL, follow these steps:
 ## 🤖 AI-Generated RTL Evaluation
 The quality of the AI-generated RTL was analyzed based on the following parameters:
 
-- Number of lines in RTL design – Measures code verbosity and efficiency.
-- 
-- Number of reg and wire variables – Determines storage and interconnect complexity.
-- 
-- Number of lines in procedural blocks (always, initial) – Represents sequential logic size.
-- 
-- Number of if-else blocks – Indicates decision-making complexity.
-- 
+- Number of lines in RTL design – Indicates the verbosity and complexity of the generated code.
+
+- Number of reg and wire variables – Reflects the storage elements and connectivity used.
+
+- Number of lines in procedural blocks (always, initial) – Represents the sequential logic size.
+
+- Number of if-else blocks – Provides insights into the decision-making complexity.
+
 - Number of assign statements – Highlights combinational logic density.
-- 
-- Number of input/output signals – Measures the external interface complexity.
-- 
+
+- Number of input/output signals – Measures the design’s external interface complexity.
+
+- Number of loops (for, while) – Assesses the iterative processing complexity.
+
+- Number of case statements – Evaluates structured decision-making efficiency.
+  
 All AI-generated RTL designs were successfully simulated, so simulation-based parameters were not included in the evaluation.
 
 
